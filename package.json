@@ -1,0 +1,52 @@
+{
+  "name": "electron-angular-boostrap-app",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Electron application using Angular 4 and Bootstrap",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --progress --profile --colors --display-error-details --display-cached",
+    "watch": "webpack --watch --progress --profile --colors --display-error-details --display-cached",
+    "electron": "electron build"
+  },
+  "author": "Sergiu Butnarasu",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^8.0.0",
+    "bootstrap": "^3.3.7",
+    "copy-webpack-plugin": "^4.0.1",
+    "css-loader": "^0.28.4",
+    "devtron": "^1.4.0",
+    "electron-packager": "^8.7.1",
+    "es6-shim": "^0.35.3",
+    "extract-text-webpack-plugin": "^2.1.2",
+    "file-loader": "^0.11.2",
+    "jquery": "^3.2.1",
+    "node-sass": "^4.5.3",
+    "raw-loader": "^0.5.1",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.18.2",
+    "ts-loader": "^2.1.0",
+    "typescript": "^2.3.4",
+    "typings": "^2.1.1",
+    "url-loader": "^0.5.9",
+    "webpack": "^3.0.0",
+    "webpack-dev-server": "^2.4.5"
+  },
+  "dependencies": {
+    "@angular/common": "^4.2.3",
+    "@angular/compiler": "^4.2.3",
+    "@angular/core": "^4.2.3",
+    "@angular/forms": "^4.2.3",
+    "@angular/http": "^4.2.3",
+    "@angular/platform-browser": "^4.2.3",
+    "@angular/platform-browser-dynamic": "^4.2.3",
+    "@angular/router": "^4.2.3",
+    "core-js": "^2.4.1",
+    "electron": "^1.6.11",
+    "reflect-metadata": "^0.1.10",
+    "rxjs": "^5.4.1",
+    "ts-helpers": "^1.1.2",
+    "zone.js": "^0.8.12"
+  }
+}
